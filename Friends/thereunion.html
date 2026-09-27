@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Friends | The Reunion</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+
+    <!--HEADER-->
+
+    <header class="header">
+
+        <div class="header-contenido">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <img src="inicio/logo.png" alt="Friends">
+
+            </a>
+
+
+            <!-- BOTÓN MENÚ CELULAR -->
+
+            <button class="menu-toggle" id="menuToggle">
+
+                ☰
+
+            </button>
+
+
+            <!-- NAVEGACIÓN -->
+
+            <nav class="nav" id="nav">
+
+                <a href="index.html">
+                    INICIO
+                </a>
+
+                <a href="sobrelaserie.html">
+                    SOBRE LA SERIE
+                </a>
+
+                <a href="personajes.html">
+                    PERSONAJES
+                </a>
+
+                <a href="momentos.html">
+                    MOMENTOS ICÓNICOS
+                </a>
+
+                <a href="galeria.html">
+                    GALERÍA
+                </a>
+
+                <a href="thereunion.html"  class="activo">
+                    THE REUNION
+                </a>
+
+            </nav>
+
+
+        <a href="login.html" class="boton-login">
+            Iniciar sesión
+        </a>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero-reunion">
+
+        <div class="hero-contenido">
+
+            <h1>FRIENDS: THE REUNION</h1>
+
+            <p>
+                El reencuentro que volvió a reunir a los seis amigos
+                más queridos de la televisión.
+            </p>
+
+            <a href="#trailer" class="boton-principal">
+                VER TRÁILER
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= INTRODUCCIÓN ================= -->
+
+    <section class="introduccion">
+
+        <div class="imagen-introduccion">
+
+            <img src="reunion.jpg" alt="Friends The Reunion">
+
+        </div>
+
+
+        <div class="texto-introduccion">
+
+            <h2>The Reunion</h2>
+
+            <p>
+                En 2021, Jennifer Aniston, Courteney Cox, Lisa Kudrow,
+                Matt LeBlanc, Matthew Perry y David Schwimmer volvieron
+                a reunirse para un especial que celebró la historia de
+                Friends.
+            </p>
+
+            <p>
+                El especial combina recuerdos, entrevistas, escenas
+                detrás de cámaras y momentos especiales junto al elenco
+                y algunos invitados.
+            </p>
+
+            <button id="botonLeerMas" class="boton-secundario">
+                LEER MÁS
+            </button>
+
+            <div id="textoExtra" class="texto-extra">
+
+                <p>
+                    The Reunion fue grabado en el Stage 24 de Warner Bros.
+                    Studios, el mismo lugar donde se filmó gran parte de
+                    la serie original.
+                </p>
+
+                <p>
+                    El especial permitió que los protagonistas recordaran
+                    momentos de la serie, hablaran sobre sus personajes y
+                    revivieran algunas de las escenas más conocidas.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROTAGONISTAS ================= -->
+
+    <section class="protagonistas">
+
+        <div class="titulo-seccion">
+
+            <h2>Los seis protagonistas</h2>
+
+            <p>
+                Hacé clic sobre cada personaje para conocer más.
+            </p>
+
+        </div>
+
+
+        <div class="protagonistas-grid">
+
+
+            <div class="protagonista"
+                data-nombre="Jennifer Aniston"
+                data-personaje="Rachel Green"
+                data-info="Rachel comenzó la serie dejando atrás su vida anterior para independizarse. Su historia se convirtió en una de las más importantes de Friends.">
+
+                <img src="jennifer.jpg" alt="Jennifer Aniston">
+
+                <h3>Rachel Green</h3>
+
+                <p>Jennifer Aniston</p>
+
+            </div>
+
+
+            <div class="protagonista"
+                data-nombre="Courteney Cox"
+                data-personaje="Monica Geller"
+                data-info="Monica es organizada, competitiva y siempre está pendiente de sus amigos. Su departamento se convirtió en uno de los lugares principales de la serie.">
+
+                <img src="courteney.jpg" alt="Courteney Cox">
+
+                <h3>Monica Geller</h3>
+
+                <p>Courteney Cox</p>
+
+            </div>
+
+
+            <div class="protagonista"
+                data-nombre="Lisa Kudrow"
+                data-personaje="Phoebe Buffay"
+                data-info="Phoebe es excéntrica, divertida y espontánea. Su personalidad y sus canciones se convirtieron en algunos de los elementos más recordados de Friends.">
+
+                <img src="lisa.jpg" alt="Lisa Kudrow">
+
+                <h3>Phoebe Buffay</h3>
+
+                <p>Lisa Kudrow</p>
+
+            </div>
+
+
+            <div class="protagonista"
+                data-nombre="Matt LeBlanc"
+                data-personaje="Joey Tribbiani"
+                data-info="Joey es actor, carismático y conocido por su personalidad inocente y su gran amor por la comida. Su amistad con Chandler es una de las más importantes de la serie.">
+
+                <img src="matt.jpg" alt="Matt LeBlanc">
+
+                <h3>Joey Tribbiani</h3>
+
+                <p>Matt LeBlanc</p>
+
+            </div>
+
+
+            <div class="protagonista"
+                data-nombre="Matthew Perry"
+                data-personaje="Chandler Bing"
+                data-info="Chandler utiliza el humor y el sarcasmo como una de sus principales características. Su relación con Monica se convierte en una parte central de las últimas temporadas.">
+
+                <img src="matthew.jpg" alt="Matthew Perry">
+
+                <h3>Chandler Bing</h3>
+
+                <p>Matthew Perry</p>
+
+            </div>
+
+
+            <div class="protagonista"
+                data-nombre="David Schwimmer"
+                data-personaje="Ross Geller"
+                data-info="Ross es paleontólogo y hermano de Monica. Su relación con Rachel es una de las historias principales de Friends.">
+
+                <img src="david.jpg" alt="David Schwimmer">
+
+                <h3>Ross Geller</h3>
+
+                <p>David Schwimmer</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MODAL ================= -->
+
+    <div id="modalPersonaje" class="modal">
+
+        <div class="modal-contenido">
+
+            <button id="cerrarModal" class="cerrar">
+                ×
+            </button>
+
+            <h2 id="modalNombre"></h2>
+
+            <h3 id="modalPersonajeNombre"></h3>
+
+            <p id="modalInfo"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= TRAILER ================= -->
+
+    <section id="trailer" class="trailer">
+
+        <div class="titulo-seccion">
+
+            <h2>Trailer oficial</h2>
+
+            <p>
+                Mirá el tráiler de Friends: The Reunion.
+            </p>
+
+        </div>
+
+
+        <div class="video-container">
+
+            <iframe
+                src="https://www.youtube.com/embed/1WY5qhd-DgI"
+                title="Friends The Reunion - Trailer Oficial HBO Max"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MOMENTOS ================= -->
+
+    <section class="momentos-reunion">
+
+        <div class="titulo-seccion">
+
+            <h2>Momentos del reencuentro</h2>
+
+            <p>
+                Algunos de los momentos que hicieron especial a The Reunion.
+            </p>
+
+        </div>
+
+
+        <div class="galeria-reunion">
+
+            <div class="foto-reunion">
+                <img src="momento1.jpg" alt="Friends The Reunion">
+            </div>
+
+            <div class="foto-reunion">
+                <img src="momento2.jpg" alt="Friends The Reunion">
+            </div>
+
+            <div class="foto-reunion">
+                <img src="momento3.jpg" alt="Friends The Reunion">
+            </div>
+
+            <div class="foto-reunion">
+                <img src="momento4.jpg" alt="Friends The Reunion">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FAQ ================= -->
+
+    <section class="preguntas">
+
+        <div class="titulo-seccion">
+
+            <h2>Preguntas frecuentes</h2>
+
+        </div>
+
+
+        <div class="pregunta">
+
+            <button class="pregunta-boton">
+                ¿Cuándo se estrenó The Reunion?
+                <span>+</span>
+            </button>
+
+            <div class="respuesta">
+
+                <p>
+                    Friends: The Reunion se estrenó en 2021 como un
+                    especial de reunión del elenco original.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="pregunta">
+
+            <button class="pregunta-boton">
+                ¿Dónde fue grabado?
+                <span>+</span>
+            </button>
+
+            <div class="respuesta">
+
+                <p>
+                    El especial fue grabado en el Stage 24 de Warner Bros.
+                    Studios, conocido por los protagonistas como
+                    "The Friends Stage".
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="pregunta">
+
+            <button class="pregunta-boton">
+                ¿Aparecen invitados?
+                <span>+</span>
+            </button>
+
+            <div class="respuesta">
+
+                <p>
+                    Sí. El especial cuenta con diferentes invitados
+                    relacionados con la historia y el fenómeno cultural
+                    de Friends.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--  FOOTER  -->
+
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <div>
+
+                <h2>
+                    FRIENDS
+                </h2>
+
+                <p>
+                    The one with the website.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="index.html">Inicio</a>
+
+                <a href="sobrelaserie.html">La serie</a>
+
+                <a href="personajes.html">Personajes</a>
+
+                <a href="momentos.html">Momentos</a>
+
+                <a href="galeria.html">Galeria</a>
+
+                <a href="thereunion">The Reunion</a>
+
+
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Friends Fan Website
+        </p>
+
+    </footer>
+
+
+    <script src="thereunion.js"></script>
+
+</body>
+
+</html>

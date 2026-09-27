@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galería | Friends</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+
+    <!-- ==================================================
+         HEADER
+    ================================================== -->
+
+    <header class="header">
+
+        <div class="header-contenido">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <img src="inicio/logo.png" alt="Friends">
+
+            </a>
+
+
+            <!-- MENÚ CELULAR -->
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+
+            <!-- NAVEGACIÓN -->
+
+            <nav class="nav" id="nav">
+
+                <a href="index.html">
+                    INICIO
+                </a>
+
+                <a href="sobrelaserie.html">
+                    SOBRE LA SERIE
+                </a>
+
+                <a href="personajes.html">
+                    PERSONAJES 
+                </a>
+
+                <a href="momentos.html">
+                    MOMENTOS ICÓNICOS
+                </a>
+
+                <a href="galeria.html" class="activo">
+                    GALERÍA
+                </a>
+
+                <a href="thereunion.html">
+                    THE REUNION
+                </a>
+
+            </nav>
+
+
+        <a href="login.html" class="boton-login">
+            Iniciar sesión
+        </a>
+
+    </header>
+
+
+
+
+   <!-- CONTENIDO PRINCIPAL -->
+
+    <main class="galeria-main">
+
+        <section class="galeria-intro">
+
+            <p class="seccion-etiqueta">
+                FRIENDS
+            </p>
+
+            <h1>
+                GALERIA
+            </h1>
+
+            <p>
+               Un recorrido por los momentos que hicieron de Friends una serie inolvidable.
+            </p>
+
+        </section>
+
+        <!-- FILTROS -->
+        <section class="filtros">
+
+            <button class="filtro activo" data-filtro="todas">
+                TODAS
+            </button>
+
+            <button class="filtro" data-filtro="personajes">
+                PERSONAJES
+            </button>
+
+            <button class="filtro" data-filtro="momentos">
+                MOMENTOS
+            </button>
+
+            <button class="filtro" data-filtro="detras">
+                DETRÁS DE ESCENA
+            </button>
+
+        </section>
+
+
+        <!-- GALERÍA -->
+        <section class="galeria">
+
+            <!-- FOTO 1 -->
+            <div class="foto-item" data-categoria="personajes">
+
+                <img src="imagenes/galeria/foto1.jpg"
+                     alt="Personajes de Friends">
+
+                <div class="foto-overlay">
+                    <span>Personajes</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 2 -->
+            <div class="foto-item" data-categoria="momentos">
+
+                <img src="imagenes/galeria/foto2.jpg"
+                     alt="Momento icónico de Friends">
+
+                <div class="foto-overlay">
+                    <span>Momento icónico</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 3 -->
+            <div class="foto-item" data-categoria="personajes">
+
+                <img src="imagenes/galeria/foto3.jpg"
+                     alt="Rachel, Monica y Phoebe">
+
+                <div class="foto-overlay">
+                    <span>Personajes</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 4 -->
+            <div class="foto-item" data-categoria="momentos">
+
+                <img src="imagenes/galeria/foto4.jpg"
+                     alt="Escena de Friends">
+
+                <div class="foto-overlay">
+                    <span>Momento icónico</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 5 -->
+            <div class="foto-item" data-categoria="detras">
+
+                <img src="imagenes/galeria/foto5.jpg"
+                     alt="Detrás de escena de Friends">
+
+                <div class="foto-overlay">
+                    <span>Detrás de escena</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 6 -->
+            <div class="foto-item" data-categoria="personajes">
+
+                <img src="imagenes/galeria/foto6.jpg"
+                     alt="Joey y Chandler">
+
+                <div class="foto-overlay">
+                    <span>Personajes</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 7 -->
+            <div class="foto-item" data-categoria="momentos">
+
+                <img src="imagenes/galeria/foto7.jpg"
+                     alt="Momento de Friends">
+
+                <div class="foto-overlay">
+                    <span>Momento icónico</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 8 -->
+            <div class="foto-item" data-categoria="detras">
+
+                <img src="imagenes/galeria/foto8.jpg"
+                     alt="El elenco de Friends detrás de escena">
+
+                <div class="foto-overlay">
+                    <span>Detrás de escena</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 9 -->
+            <div class="foto-item" data-categoria="personajes">
+
+                <img src="imagenes/galeria/foto9.jpg"
+                     alt="El elenco de Friends">
+
+                <div class="foto-overlay">
+                    <span>Personajes</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 10 -->
+            <div class="foto-item" data-categoria="momentos">
+
+                <img src="imagenes/galeria/foto10.jpg"
+                     alt="Escena icónica de Friends">
+
+                <div class="foto-overlay">
+                    <span>Momento icónico</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 11 -->
+            <div class="foto-item" data-categoria="detras">
+
+                <img src="imagenes/galeria/foto11.jpg"
+                     alt="Elenco de Friends detrás de escena">
+
+                <div class="foto-overlay">
+                    <span>Detrás de escena</span>
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 12 -->
+            <div class="foto-item" data-categoria="personajes">
+
+                <img src="imagenes/galeria/foto12.jpg"
+                     alt="Personajes de Friends">
+
+                <div class="foto-overlay">
+                    <span>Personajes</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- VENTANA PARA VER LA FOTO EN GRANDE -->
+    <div class="visor" id="visor">
+
+        <button class="cerrar" id="cerrar">&times;</button>
+
+        <img id="imagenGrande" src="" alt="">
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <div class="footer-logo">
+                FRIENDS
+            </div>
+
+            <p>
+                The one with the website.
+            </p>
+
+        </div>
+
+        <div class="footer-abajo">
+            <p>© 2026 Friends Fan Website</p>
+        </div>
+
+    </footer>
+
+
+    <script src="galeria.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Friends | Personajes</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+
+<body>
+
+
+    <!--HEADER -->
+
+    <header class="header">
+
+        <div class="header-contenido">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <img src="inicio/logo.png" alt="Friends">
+
+            </a>
+
+
+            <!-- MENÚ CELULAR -->
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+
+            <!-- NAVEGACIÓN -->
+
+            <nav class="nav" id="nav">
+
+                <a href="index.html">
+                    INICIO
+                </a>
+
+                <a href="sobrelaserie.html">
+                    SOBRE LA SERIE
+                </a>
+
+                <a href="personajes.html" class="activo">
+                    PERSONAJES 
+                </a>
+
+                <a href="momentos.html">
+                    MOMENTOS ICÓNICOS
+                </a>
+
+                <a href="galeria.html">
+                    GALERÍA
+                </a>
+
+                <a href="thereunion.html">
+                    THE REUNION
+                </a>
+
+            </nav>
+
+
+        <a href="login.html" class="boton-login">
+            Iniciar sesión
+        </a>
+
+    </header>
+
+
+
+   <!-- CONTENIDO PRINCIPAL -->
+
+    <main class="personajes-main">
+
+        <section class="personajes-intro">
+
+            <p class="seccion-etiqueta">
+                FRIENDS
+            </p>
+
+            <h1>
+                PERSONAJES
+            </h1>
+
+            <p>
+                Conocé a los seis amigos que hicieron de esta serie una de las
+                comedias más recordadas de la televisión.
+            </p>
+
+        </section>
+
+
+        <!-- PERSONAJES PRINCIPALES -->
+
+        <section class="personajes-seccion">
+
+            <div class="titulo-seccion">
+
+                <p class="numero-seccion">
+                    01
+                </p>
+
+                <h2>
+                    PERSONAJES PRINCIPALES
+                </h2>
+
+            </div>
+
+
+            <div class="personajes-grid">
+
+
+                <!-- MONICA -->
+
+                <article class="personaje-card">
+
+                    <div class="personaje-imagen">
+                        <img src="personajes/monicag.jpg" alt="Monica Geller">
+                    </div>
+
+                    <div class="personaje-info">
+
+                        <h3>
+                            MONICA GELLER
+                        </h3>
+
+                        <p>
+                            Organizada, competitiva y perfeccionista.
+                            Siempre intenta tener todo bajo control.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="personaje-boton"
+                            data-personaje="monica">
+                            VER MÁS
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- RACHEL -->
+
+                <article class="personaje-card">
+
+                    <div class="personaje-imagen">
+                        <img src="personajes/rachelg.webp" alt="Rachel Green">
+                    </div>
+
+                    <div class="personaje-info">
+
+                        <h3>
+                            RACHEL GREEN
+                        </h3>
+
+                        <p>
+                            Divertida, carismática y apasionada por la moda.
+                            Construye su propia independencia.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="personaje-boton"
+                            data-personaje="rachel">
+                            VER MÁS
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ROSS -->
+
+                <article class="personaje-card">
+
+                    <div class="personaje-imagen">
+                        <img src="personajes/rossg.jpg" alt="Ross Geller">
+                    </div>
+
+                    <div class="personaje-info">
+
+                        <h3>
+                            ROSS GELLER
+                        </h3>
+
+                        <p>
+                            Paleontólogo, inteligente y apasionado
+                            por la ciencia.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="personaje-boton"
+                            data-personaje="ross">
+                            VER MÁS
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CHANDLER -->
+
+                <article class="personaje-card">
+
+                    <div class="personaje-imagen">
+                        <img src="personajes/chandlerb.jpg" alt="Chandler Bing">
+                    </div>
+
+                    <div class="personaje-info">
+
+                        <h3>
+                            CHANDLER BING
+                        </h3>
+
+                        <p>
+                            Sarcástico, divertido y sensible.
+                            Utiliza el humor para enfrentar situaciones.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="personaje-boton"
+                            data-personaje="chandler">
+                            VER MÁS
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- JOEY -->
+
+                <article class="personaje-card">
+
+                    <div class="personaje-imagen">
+                        <img src="personajes/joeyt.jpg" alt="Joey Tribbiani">
+                    </div>
+
+                    <div class="personaje-info">
+
+                        <h3>
+                            JOEY TRIBBIANI
+                        </h3>
+
+                        <p>
+                            Actor, espontáneo y divertido.
+                            Es uno de los amigos más leales del grupo.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="personaje-boton"
+                            data-personaje="joey">
+                            VER MÁS
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PHOEBE -->
+
+                <article class="personaje-card">
+
+                    <div class="personaje-imagen">
+                        <img src="personajes/phoebeb.jpg" alt="Phoebe Buffay">
+                    </div>
+
+                    <div class="personaje-info">
+
+                        <h3>
+                            PHOEBE BUFFAY
+                        </h3>
+
+                        <p>
+                            Creativa, independiente y con una personalidad
+                            completamente original.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="personaje-boton"
+                            data-personaje="phoebe">
+                            VER MÁS
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ACTORES INVITADOS -->
+
+        <section class="actores-seccion">
+
+            <div class="titulo-seccion">
+
+                <p class="numero-seccion">
+                    02
+                </p>
+
+                <h2>
+                    ACTORES INVITADOS
+                </h2>
+
+            </div>
+
+
+            <p class="actores-intro">
+                A lo largo de sus diez temporadas, Friends contó con
+                numerosas apariciones especiales de actores reconocidos.
+            </p>
+
+
+            <!-- ACTORES QUE YA SE MUESTRAN -->
+
+            <div class="actores-grid">
+
+
+                <article class="actor-card">
+
+                    <div class="actor-imagen">
+                        <img src="personajes/bradpitt.jpg" alt="Brad Pitt">
+                    </div>
+
+                    <div class="actor-info">
+
+                        <h3>
+                            BRAD PITT
+                        </h3>
+
+                        <p>
+                            Will Colbert
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="actor-card">
+
+                    <div class="actor-imagen">
+                        <img src="personajes/brucewillis.jpg" alt="Bruce Willis">
+                    </div>
+
+                    <div class="actor-info">
+
+                        <h3>
+                            BRUCE WILLIS
+                        </h3>
+
+                        <p>
+                            Paul Stevens
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="actor-card">
+
+                    <div class="actor-imagen">
+                        <img src="personajes/juliaroberts.jpg" alt="Julia Roberts">
+                    </div>
+
+                    <div class="actor-info">
+
+                        <h3>
+                            JULIA ROBERTS
+                        </h3>
+
+                        <p>
+                            Susie Moss
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="actor-card">
+
+                    <div class="actor-imagen">
+                        <img src="personajes/winona.png" alt="Winona Ryder">
+                    </div>
+
+                    <div class="actor-info">
+
+                        <h3>
+                            WINONA RYDER
+                        </h3>
+
+                        <p>
+                            Melissa Warburton
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="actor-card">
+
+                    <div class="actor-imagen">
+                        <img src="personajes/alec.jpg" alt="Alec Baldwin">
+                    </div>
+
+                    <div class="actor-info">
+
+                        <h3>
+                            ALEC BALDWIN
+                        </h3>
+
+                        <p>
+                            Parker
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="actor-card">
+
+                    <div class="actor-imagen">
+                        <img src="personajes/christina.jpg" alt="Christina Applegate">
+                    </div>
+
+                    <div class="actor-info">
+
+                        <h3>
+                            CHRISTINA APPLEGATE
+                        </h3>
+
+                        <p>
+                            Amy Green
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- BOTÓN -->
+
+            <div class="actores-boton-contenedor">
+
+                <button
+                    type="button"
+                    class="actores-ver-mas"
+                    id="verActores">
+
+                    VER TODOS LOS ACTORES INVITADOS
+
+                </button>
+
+            </div>
+
+
+            <!-- ACTORES EXTRA -->
+
+            <div class="actores-extra" id="actoresExtra">
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        DANNY DEVITO
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Roy
+                    </span>
+
+                </div>
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        BROOKE SHIELDS
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Erika Ford
+                    </span>
+
+                </div>
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        DERMOT MULRONEY
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Gavin Mitchell
+                    </span>
+
+                </div>
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        ISABELLA ROSSELLINI
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Isabella
+                    </span>
+
+                </div>
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        JEAN-CLAUDE VAN DAMME
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Él mismo
+                    </span>
+
+                </div>
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        REESE WITHERSPOON
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Jill Green
+                    </span>
+
+                </div>
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        PAUL RUDD
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Mike
+                    </span>
+
+                </div>
+
+
+                <div class="actor-extra">
+
+                    <span class="actor-extra-nombre">
+                        SEAN PENN
+                    </span>
+
+                    <span class="actor-extra-personaje">
+                        Eric
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MENSAJE FINAL -->
+
+        <section class="personajes-final">
+
+            <p>
+                SEIS AMIGOS. DIEZ TEMPORADAS.
+            </p>
+
+            <h2>
+                UNA SERIE QUE SE CONVIRTIÓ<br>
+                EN PARTE DE NUESTRAS VIDAS.
+            </h2>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- MODAL PERSONAJES -->
+
+    <div class="personaje-modal" id="personajeModal">
+
+        <div class="personaje-modal-contenido">
+
+            <button
+                type="button"
+                class="personaje-modal-cerrar"
+                id="cerrarPersonaje"
+                aria-label="Cerrar">
+                ×
+            </button>
+
+
+            <div class="personaje-modal-imagen">
+
+                <img
+                    id="modalPersonajeImagen"
+                    src=""
+                    alt="">
+
+            </div>
+
+
+            <div class="personaje-modal-texto">
+
+                <p class="modal-etiqueta">
+                    PERSONAJE DE FRIENDS
+                </p>
+
+                <h2 id="modalPersonajeNombre">
+                    PERSONAJE
+                </h2>
+
+                <p id="modalPersonajeDescripcion">
+                    Información del personaje.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- MODAL LOGIN -->
+
+    <div class="login-modal" id="loginModal">
+
+        <div class="login-modal-contenido">
+
+            <button
+                type="button"
+                class="login-modal-cerrar"
+                id="cerrarLogin">
+                ×
+            </button>
+
+            <p class="modal-etiqueta">
+                FRIENDS
+            </p>
+
+            <h2>
+                INICIAR SESIÓN
+            </h2>
+
+            <form>
+
+                <input
+                    type="email"
+                    placeholder="Email">
+
+                <input
+                    type="password"
+                    placeholder="Contraseña">
+
+                <button type="submit">
+                    INGRESAR
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+ <!--  FOOTER  -->
+
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <div>
+
+                <h2>
+                    FRIENDS
+                </h2>
+
+                <p>
+                    The one with the website.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="index.html">Inicio</a>
+
+                <a href="sobrelaserie.html">La serie</a>
+
+                <a href="personajes.html">Personajes</a>
+
+                <a href="momentos.html">Momentos</a>
+
+                <a href="galeria.html">Galeria</a>
+
+                <a href="thereunion">The Reunion</a>
+
+
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Friends Fan Website
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+    <script src="personajes.js"></script>
+
+
+</body>
+
+</html>
